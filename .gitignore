@@ -1,0 +1,26 @@
+# Data files — download from Kaggle, don't commit to git
+data/raw/*.csv
+data/raw/*.txt
+data/processed/*.csv
+
+# Trained models
+models/*.pkl
+models/*.json
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
